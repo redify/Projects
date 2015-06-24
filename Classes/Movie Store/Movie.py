@@ -1,9 +1,12 @@
 class movie:
+    """
+    movie will track if it is checked out and when it's return date is.
+    """
     
-    def __init__(self):
+    def __init__(self, title):
         self.checked = False
         self.return_date = None
-        self.overdue_fee = 0
-        self.account = None
+        self.title = title
     
-    
+    def getTitle(self):
+        return self.title
