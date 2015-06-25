@@ -11,5 +11,5 @@ class account:
     def getName(self):
         return self.name
         
-    def takeMovie(self, movieTitle):
-        pass
+    def takeMovie(self, movie_obj):
+        self.checked_movies.append(movie_obj)

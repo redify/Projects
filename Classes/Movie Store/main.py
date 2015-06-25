@@ -9,9 +9,12 @@ the_store = Store.store()
 
 the_store.createAccount('bob')
 the_store.createAccount('timmy')
+the_store.createAccount('greg')
 
 the_store.createMovie('timbucktoo')
 the_store.createMovie('star trek 3')
 the_store.createMovie('villia')
 
-print("im done!")
+the_store.checkMovie('timmy', 'villia')
+
+the_store.dumpAccountInfo('timmy')

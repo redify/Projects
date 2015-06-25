@@ -10,3 +10,6 @@ class movie:
     
     def getTitle(self):
         return self.title
+    
+    def setReturnDate(self, date):
+        self.return_date = date #lets standardize this as monthdayyear (10301987)
